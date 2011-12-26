@@ -1,0 +1,1 @@
+jp.itoz.air.mobile.extensions.NetworkStatus

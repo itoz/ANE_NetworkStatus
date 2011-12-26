@@ -1,0 +1,17 @@
+<extension xmlns="http://ns.adobe.com/air/extension/2.5">
+  <id>jp.itoz.air.mobile.extensions.NetworkStatus</id>
+  <versionNumber>1.0.1</versionNumber>
+  <copyright>itoz.jp</copyright>
+  <platforms>
+    <platform name="iPhone-ARM">
+      <applicationDeployment>
+        <nativeLibrary>libNetworkStatus.a</nativeLibrary>
+        <initializer>NetworkStatusExtInitializer</initializer>
+        <finalizer>NetworkStatusExtFinalizer</finalizer>
+      </applicationDeployment>
+    </platform>
+    <platform name="default">
+      <applicationDeployment/>
+    </platform>
+  </platforms>
+</extension>

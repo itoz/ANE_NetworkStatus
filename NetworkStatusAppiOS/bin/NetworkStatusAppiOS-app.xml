@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://ns.adobe.com/air/application/3.1">
+  <id>jp.itoz.air.mobile.extensions.sample.NetworkStatus</id>
+  <filename>NetworkStatus</filename>
+  <name>NetworkStatusAppiOS</name>
+  <versionNumber>1.0.0</versionNumber>
+  <initialWindow>
+    <content>NetworkStatusAppiOS.swf</content>
+    <autoOrients>true</autoOrients>
+    <fullScreen>false</fullScreen>
+    <renderMode>auto</renderMode>
+    <visible>true</visible>
+  </initialWindow>
+  <iPhone>
+    <InfoAdditions><![CDATA[<key>UIDeviceFamily</key>
+  <array>
+    <string>1</string>
+    <string>2</string>
+  </array>
+  <key>UIStatusBarStyle</key>
+  <string>UIStatusBarStyleBlackOpaque</string>
+  <key>UIRequiresPersistentWiFi</key>
+  <string>YES</string>]]></InfoAdditions>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </iPhone>
+  <extensions>
+    <extensionID>jp.itoz.air.mobile.extensions.NetworkStatus</extensionID>
+  </extensions>
+</application>
+
